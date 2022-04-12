@@ -86,7 +86,6 @@ body {
 
 .banner a {
   display: inline-block;
-  background-color: transparent;
   padding: .5em 1.5em .6em;
   border: .3rem solid #bea59b;
   border-radius: 1em;
