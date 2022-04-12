@@ -70,7 +70,7 @@ body {
   width: 100%;
 }
 
-.banner div {
+.banner article {
   grid-area: banner;
   align-self: center;
   justify-self: center;
