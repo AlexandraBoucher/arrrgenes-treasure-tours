@@ -57,8 +57,14 @@ body {
 }
 
 .nav a:hover {
-  border: .3rem solid #fff;
-  border-radius: 1em;
+  background-color: #bea59b;
+}
+
+.nav a:focus {
+  border: .1rem solid #522806;
+  background-color: #bea59b;
+  color: #fff;
+  outline: .1rem solid #fff;
 }
 
 .banner {
@@ -68,6 +74,7 @@ body {
   grid-template-areas: "banner";
   color: #fff;
   font-size: 1.5rem;
+  background-color: #522806;
 }
 
 .banner img {
@@ -98,6 +105,18 @@ body {
   background-color: transparent;
   font-weight: bold;
   text-decoration: none;
+}
+
+.banner a:hover {
+  background-color: #fff;
+  color: #522806;
+}
+
+.banner a:focus {
+  border: .3rem solid #bea59b;
+  background-color: #fff;
+  color: #522806;
+  outline: .1rem solid #fff;
 }
 
 .ship {
@@ -139,6 +158,18 @@ body {
   color: #522806;
   font-weight: bold;
   text-decoration: none;
+}
+
+.card a:hover {
+  background-color: #522806;
+  color: #fff;
+}
+
+.card a:focus {
+  border: .3rem solid #fff;
+  background-color: #522806;
+  color: #fff;
+  outline: .1rem solid #522806;
 }
 
 .footer {
